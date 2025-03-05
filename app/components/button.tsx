@@ -22,7 +22,7 @@ export default function Button({
 
   if (style == "outline") {
     return (
-        <button className={`bg-transparent py-2 px-8 w-fit rounded-full border-2 border-primary cursor-pointer text-primary font-bold ${className}`}>
+        <button className={`bg-transparent py-2 px-8 w-fit rounded-full border-2 border-primary cursor-pointer text-primary font-bold ${className}`} onClick={onClick}>
             {children}
         </button>
     );
