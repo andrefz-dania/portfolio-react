@@ -1,5 +1,5 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import Card from "~/components/card";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -9,5 +9,11 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+    <div className="flex flex-row gap-8 place-content-center mt-8">
+    <Card></Card>
+  
+    <Card></Card>
+    </div>
+  );
 }
