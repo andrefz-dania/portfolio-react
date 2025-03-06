@@ -21,14 +21,14 @@ body {
 
 html {
   background-color: black;
-  background-image: url("bg.svg");
+  background-image: url("/bg.svg");
   background-size: cover;
   background-position: 50% 50%;
   background-attachment: fixed;
 }
 
 .bg-pattern {
-  background-image: url("pattern-dynamic.svg");
+  background-image: url("/pattern-dynamic.svg");
   background-attachment: fixed;
   background-size: 120vh;
   background-position-x: -20vh ;
