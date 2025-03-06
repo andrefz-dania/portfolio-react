@@ -1,6 +1,14 @@
 import ProjectCard from "~/components/card";
 import { H2 } from "~/components/headings";
 import { webProjects } from "~/data/projects";
+import type { Route } from "./+types/portfolio";
+
+export function meta({}: Route.MetaArgs) {
+    return [
+      { title: "André Zacharov | Portfolio" },
+      { name: "description", content: "Web Developer portfolio page for André" },
+    ];
+  }
 
 export default function Portfolio() {
     const data = webProjects; 

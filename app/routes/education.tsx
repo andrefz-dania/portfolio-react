@@ -1,6 +1,13 @@
-import Card from "~/components/card";
 import { H1, H2, H3 } from "~/components/headings";
 import { timeline } from "~/data/timeline";
+import type { Route } from "./+types/education";
+
+export function meta({}: Route.MetaArgs) {
+    return [
+      { title: "André Zacharov | Education" },
+      { name: "description", content: "Web Developer portfolio page for André" },
+    ];
+  }
 
 export default function Education() {
     const data = timeline
