@@ -7,7 +7,7 @@ export default function Profile() {
     <section className="flex flex-col gap-4 p-2">
       <div className="overflow-hidden max-w-screen pb-16 flex md:flex-row flex-col-reverse place-content-around items-center">
         <div>
-          <H1 className="md:text-left md:ml-2 text-highlight">
+          <H1 className="md:text-left md:ml-2 text-highlight mb-8">
             André Zacharov
           </H1>
           <ul className="text-highlight opacity-60 md:text-left text-center text-2xl">

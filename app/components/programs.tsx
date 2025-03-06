@@ -2,7 +2,7 @@ import type { ProgramType } from "~/data/programs";
 
 export default function Programs({itemList}: {itemList: ProgramType[]}) {
   return (
-    <div className="flex flex-wrap h-fit gap-8 mx-auto place-content-center">
+    <div className="flex flex-wrap h-fit gap-8 mx-auto place-content-center mb-8">
       {itemList?.map((item: ProgramType) => (
 
           <div key={item.id} className="flex w-16 group relative justify-center">
