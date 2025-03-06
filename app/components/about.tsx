@@ -14,16 +14,17 @@ export default function About() {
                 <li className="md:translate-x-24">2D & 3D Digital Artist</li>
             </ul>
 
-            <ul className="flex flex-row gap-4">
-                <li><Link>GitHub</Link></li>
-                <li><Link>LinkedIn</Link></li>
-                <li><Link>Email</Link></li>
+            <ul className="flex flex-row gap-4 place-content-center md:translate-y-16 mt-8 z-30 relative">
+                <li><Link to="/"><img className="h-12 opacity-40 hover:opacity-90 transition-all hover:scale-110" src="/icons/github-bw.png" alt="GitHub" /></Link></li>
+                <li><Link to="/"><img className="h-12 opacity-40 hover:opacity-90 transition-all hover:scale-110" src="/icons/ln-bw.svg" alt="LinkedIn" /></Link></li>
+                <li><Link to="/"><img className="h-12 opacity-40 hover:opacity-90 transition-all hover:scale-110" src="/icons/mail-round-bw.svg" alt="Email" /></Link></li>
+
             </ul>
         </div>
-        <div className="profile w-full aspect-square max-w-xl mix-blend-screen brightness-60 hover:brightness-100 scale-150"></div>
+        <div className="profile w-full aspect-square max-w-xl mix-blend-screen brightness-60 hover:brightness-80 transition-all duration-1000 scale-150"></div>
       </div>
       {/* <img className="mix-blend-screen brightness-60 hover:brightness-100" src="/img/self-filtered-crop.png" alt="" /> */}
-      <p>
+      <p className="max-w-2xl mx-auto text-center">
         I'm André - Currently a student of Multimedia Design, and a long-time
         enthusiast in all things digital. I like to tinker with a variety of
         electronics and creative tools, and like to build or customize
