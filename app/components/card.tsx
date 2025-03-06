@@ -48,6 +48,9 @@ export default function ProjectCard({
             <Button style="outline">GitHub</Button>
           </Link>
         )}
+
+        {!code && !link? (
+          <p className="text-highlight font-bold">Links coming soon...</p>) : null}
       </div>
     </div>
   );
