@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
     <About></About>
-      <div className="flex flex-row gap-8 place-content-center mt-8">
+      <div className="flex flex-row gap-8 place-content-center mt-8 overflow-hidden max-w-screen">
         <Card></Card>
         <Card></Card>
       </div>

@@ -7,7 +7,7 @@ export default function Toolkit() {
     const designList = designPrograms;
 
     return (
-        <section>
+        <section className="p-2">
             <H2>My Toolkit</H2>
             <H3>Coding & Web Development</H3>
             <Programs itemList={codeList}></Programs>

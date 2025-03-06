@@ -5,6 +5,7 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-display: "Comfortaa", Arial, Helvetica, sans-serif;
     --color-primary: hsl(235 36 45);
+    --color-highlight: hsl(235 36 80);
     --color-foreground1: hsl(0 0 8);
     --color-foreground2: hsl(0 0 6);
 }
@@ -12,6 +13,9 @@
 html,
 body {
   @apply text-white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -21,6 +25,7 @@ html {
   background-size: cover;
   background-position: 50% 50%;
   background-attachment: fixed;
+  border: 2px solid rgba(255, 0, 0, 0.342)
 }
 
 .bg-pattern {
@@ -42,4 +47,10 @@ html {
 
 section {
   margin-bottom: 6rem;
+}
+
+.profile {
+  background-image: url("/img/self-filtered-crop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
