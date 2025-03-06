@@ -18,7 +18,7 @@ export default function ProjectCard({
   tags: string[];
 }) {
   return (
-    <div className="flex flex-col snap-center grow basis-0 min-w-68 place-content-between shadow-lg shadow-black/30 gap-4 max-w-sm text-white bg-linear-to-b from-foreground1 to-foreground2 p-8 rounded-2xl border-t-3 border-white/5 hover:scale-[1.01] transition-all">
+    <div className="flex flex-col snap-center grow basis-0 min-w-64 md:min-w-96 place-content-between shadow-lg shadow-black/30 gap-4 max-w-sm text-white bg-linear-to-b from-foreground1 to-foreground2 p-8 rounded-2xl border-t-3 border-white/5 hover:scale-[1.01] transition-all">
       <div className="flex flex-col gap-4">
         <H3 className="m-0 p-0">{name}</H3>
       <img className="rounded-xl" src={img ? img : "placeholder.jpg"} alt="" />
@@ -36,7 +36,7 @@ export default function ProjectCard({
 
       <p>{desc}</p>
       </div>
-      <div className="flex flex-row gap-4 place-items-around mx-auto mt-4">
+      <div className="flex flex-col md:flex-row gap-4 place-items-around mx-auto mt-4">
         {link && (
           <Link to={link} target="_blank">
             <Button>Website</Button>
