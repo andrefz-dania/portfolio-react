@@ -50,12 +50,10 @@ export default function Profile() {
       </div>
       <div className="flex flex-col 9shadow-black/30 gap-4 bg-linear-to-b mx-auto w-fit from-foreground1 to-foreground2 p-8 rounded-2xl border-t-3 border-white/5 appear">
       <p className="max-w-2xl mx-auto text-center">
-        I'm André - Currently a student of Multimedia Design, and a long-time
-        enthusiast in all things digital. I like to tinker with a variety of
-        electronics and creative tools, and like to build or customize
-        everything I use. I designed and built this website, my desktop PC, and
-        even an LED light fixture, and have worked on a variety of digital art
-        and level design projects.
+        I'm André - Currently a student of Web Development in Aarhus, Denmark.
+      </p>
+      <p className="max-w-2xl mx-auto text-center">
+        I enjoy bringing together my experience as an artist and designer, as well as the technical knowledge to build functional web applications.
       </p>
       <Link to="/portfolio" className="mx-auto">
         <Button className="text-2xl mt-8">See My Portfolio</Button>
