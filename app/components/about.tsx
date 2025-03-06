@@ -18,7 +18,7 @@ export default function Profile() {
 
           <ul className="flex flex-row gap-4 place-content-center md:translate-y-16 mt-8 z-30 relative appear">
             <li>
-              <Link to="/">
+              <Link to="https://github.com/andrefz-dania">
                 <img
                   className="h-12 opacity-40 hover:opacity-90 transition-all hover:scale-110 rounded-full"
                   src="/icons/github-bw.png"
@@ -27,7 +27,7 @@ export default function Profile() {
               </Link>
             </li>
             <li>
-              <Link to="/">
+              <Link to="https://www.linkedin.com/in/andr%C3%A9-zacharov-0549b5290/">
                 <img
                   className="h-12 opacity-40 hover:opacity-90 transition-all hover:scale-110"
                   src="/icons/ln-bw.svg"
@@ -36,7 +36,7 @@ export default function Profile() {
               </Link>
             </li>
             <li>
-              <Link to="/">
+              <Link to="mailto:andre.f.z@protonmai.com">
                 <img
                   className="h-12 opacity-40 hover:opacity-90 transition-all hover:scale-110"
                   src="/icons/mail-round-bw.svg"

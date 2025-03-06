@@ -40,8 +40,5 @@ export const timeline = [
         title: "My first website",
         year: 2006,
         desc: "I created my first website in 2004, before I was even a teenager. I was taught some basics of HTML by my family as a starting point."
-    },
-    {
-        id: 6,
     }
 ]

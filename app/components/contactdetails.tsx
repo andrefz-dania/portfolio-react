@@ -13,7 +13,7 @@ export default function ContactDetails() {
 
           <ul className="flex flex-col gap-8 place-content-center mt-8 z-30 relative md:ml-16 appear">
             <li>
-              <Link to="/" className="flex flex-row items-center gap-2">
+              <Link to="https://github.com/andrefz-dania" className="flex flex-row items-center gap-2">
                 <img
                   className="h-8 rounded-full"
                   src="/icons/github-bw.png"
@@ -23,7 +23,7 @@ export default function ContactDetails() {
               </Link>
             </li>
             <li>
-              <Link to="/" className="flex flex-row items-center gap-2">
+              <Link to="https://www.linkedin.com/in/andr%C3%A9-zacharov-0549b5290/" className="flex flex-row items-center gap-2">
                 <img
                   className="h-8"
                   src="/icons/ln-bw.svg"
@@ -33,7 +33,7 @@ export default function ContactDetails() {
               </Link>
             </li>
             <li>
-              <Link to="/" className="flex flex-row items-center gap-2">
+              <Link to="mailto:andre.f.z@protonmai.com" className="flex flex-row items-center gap-2">
                 <img
                   className="h-8"
                   src="/icons/mail-round-bw.svg"
@@ -43,7 +43,7 @@ export default function ContactDetails() {
               </Link>
             </li>
             <li>
-              <Link to="/" className="flex flex-row items-center gap-2">
+              <Link to="/contact" className="flex flex-row items-center gap-2">
                 <img
                   className="h-8"
                   src="/icons/phone.svg"
