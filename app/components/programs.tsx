@@ -1,12 +1,9 @@
-import { codePrograms } from "~/data/programs";
 import type { ProgramType } from "~/data/programs";
 
-export default function Programs() {
-  const list = codePrograms;
+export default function Programs({itemList}: {itemList: ProgramType[]}) {
   return (
-    <div className="flex flex-wrap h-fit gap-2">
-      {list?.map((item: ProgramType) => (
-        <>
+    <div className="flex flex-wrap h-fit gap-4 mx-auto place-content-center">
+      {itemList?.map((item: ProgramType) => (
 
           <div key={item.id} className="flex w-16 group rounded-full aspect-square relative justify-center">
             <img
@@ -16,7 +13,6 @@ export default function Programs() {
             />
             <p className="text-sm absolute -bottom-6 text-nowrap text-center place-self-center opacity-0 transition-opacity duration-500 group-hover:opacity-100">{item.name}</p>
           </div>
-        </>
       ))}
     </div>
   );

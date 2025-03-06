@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+  --font-text: "Inter", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-display: "Comfortaa", Arial, Helvetica, sans-serif;
     --color-primary: hsl(235 36 45);
     --color-foreground1: hsl(0 0 8);
     --color-foreground2: hsl(0 0 6);
@@ -37,4 +38,8 @@ html {
   mix-blend-mode:screen;
   overflow: hidden;
   z-index: -1;
+}
+
+section {
+  margin-bottom: 6rem;
 }
