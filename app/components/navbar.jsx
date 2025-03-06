@@ -11,20 +11,20 @@ export default function Navbar() {
           <img src="logo-filled.svg" className="h-16 md:h-12" alt="" />
         </Link>
         <ul
-          className={`visible h-64 md:h-auto w-full items-center rounded-xl bg-black/50 backdrop-blur-md md:backdrop-blur-none md:bg-transparent fixed right-0 top-28 md:top-0 md:right-auto text-right md:text-left md:relative list-none flex flex-col md:flex-row gap-8 text-2xl font-display font-bold mx-auto py-2 max-w-6xl place-content-center transition-all origin-top ${navOpen ? `scale-y-100 opacity-100` : `scale-y-0 opacity-0 md:opacity-100 md:scale-y-100 `}`}
+          className={`visible h-96 md:h-auto w-full items-center rounded-xl bg-black/50 backdrop-blur-md md:backdrop-blur-none md:bg-transparent fixed right-0 top-28 md:top-0 md:right-auto text-right md:text-left md:relative list-none flex flex-col md:flex-row gap-8 text-2xl font-display font-bold mx-auto py-2 max-w-6xl place-content-center md:place-content-around transition-all origin-top ${navOpen ? `scale-y-100 opacity-100` : `scale-y-0 opacity-0 md:opacity-100 md:scale-y-100 `}`}
         >
 
           <li>
-            <Link to="/portfolio" onClick={() => setNavOpen(false)}>Portfolio</Link>
+            <Link to="/portfolio" onClick={() => setNavOpen(false)} className="hover:drop-shadow-[0_0_8px_rgba(182,188,249,1)]">Portfolio</Link>
           </li>
           <li>
-            <Link to="/skills" onClick={() => setNavOpen(false)}>Skills</Link>
+            <Link to="/skills" onClick={() => setNavOpen(false)} className="hover:drop-shadow-[0_0_8px_rgba(182,188,249,1)]">Skills</Link>
           </li>
           <li>
-            <Link to="/education" onClick={() => setNavOpen(false)}>Education</Link>
+            <Link to="/education" onClick={() => setNavOpen(false)} className="hover:drop-shadow-[0_0_8px_rgba(182,188,249,1)]">Education</Link>
           </li>
           <li>
-            <Link to="/contact" onClick={() => setNavOpen(false)}>Contact</Link>
+            <Link to="/contact" onClick={() => setNavOpen(false)} className="hover:drop-shadow-[0_0_8px_rgba(182,188,249,1)]">Contact</Link>
           </li>
         </ul>
         <button

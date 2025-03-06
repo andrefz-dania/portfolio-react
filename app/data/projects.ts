@@ -3,7 +3,7 @@ export const webProjects = [
     {
         id: 0,
         name: "Portfolio Website",
-        desc: "A web-app made in collaboration with fellow students at Erhvervsakademi Aarhus. This site lets you seamlessly plan events with your friends and family",
+        desc: "My personal portfolio website, now rebuilt and re-designed with modern technologies like React.",
         link: "/",
         code: "https://github.com/andrefz-dania/portfolio-react",
         img: "img/portfolio.png",
