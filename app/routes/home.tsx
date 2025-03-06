@@ -1,3 +1,4 @@
+import Programs from "~/components/programs";
 import type { Route } from "./+types/home";
 import Card from "~/components/card";
 
@@ -10,10 +11,14 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   return (
-    <div className="flex flex-row gap-8 place-content-center mt-8">
-    <Card></Card>
-  
-    <Card></Card>
-    </div>
+    <>
+      <div className="flex flex-row gap-8 place-content-center mt-8">
+        <Card></Card>
+        <Card></Card>
+      </div>
+      <div>
+        <Programs />
+      </div>
+    </>
   );
 }

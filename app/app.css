@@ -8,6 +8,12 @@
     --color-foreground2: hsl(0 0 6);
 }
 
+html,
+body {
+  @apply text-white;
+}
+
+
 html {
   background-color: black;
   background-image: url("bg.svg");
