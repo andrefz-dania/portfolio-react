@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className="w-full fixed top-4 z-90 flex flex-row place-content-between ">
       <div className="fixed md:relative list-none flex flex-row w-full place-content-between gap-8 text-2xl font-display font-bold mx-auto py-2 max-w-6xl md:shadow-lg md:shadow-black/30 md:bg-linear-to-b from-foreground1 to-foreground2 p-8 rounded-2xl md:border-t-3 md:border-white/5 ">
-        <Link to="/">
+        <Link to="/" onClick={() => setNavOpen(false)}>
           <img src="logo-filled.svg" className="h-16 md:h-12" alt="" />
         </Link>
         <ul
@@ -22,6 +22,9 @@ export default function Navbar() {
           </li>
           <li>
             <Link to="/education" onClick={() => setNavOpen(false)}>Education</Link>
+          </li>
+          <li>
+            <Link to="/contact" onClick={() => setNavOpen(false)}>Contact</Link>
           </li>
         </ul>
         <button

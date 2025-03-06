@@ -7,16 +7,16 @@ export default function Profile() {
     <section className="flex flex-col gap-4 p-2">
       <div className="overflow-hidden max-w-screen pb-16 flex md:flex-row flex-col-reverse place-content-around items-center">
         <div>
-          <H1 className="md:text-left md:ml-2 text-highlight mb-8">
+          <H1 className="md:text-left md:ml-2 text-highlight mb-8 appear">
             André Zacharov
           </H1>
-          <ul className="text-highlight opacity-60 md:text-left text-center text-2xl">
+          <ul className="text-highlight opacity-60 md:text-left text-center text-2xl appear">
             <li className="md:translate-x-8">Full-stack Web Developer</li>
             <li className="md:translate-x-16">UI & UX Designer</li>
             <li className="md:translate-x-24">2D & 3D Digital Artist</li>
           </ul>
 
-          <ul className="flex flex-row gap-4 place-content-center md:translate-y-16 mt-8 z-30 relative">
+          <ul className="flex flex-row gap-4 place-content-center md:translate-y-16 mt-8 z-30 relative appear">
             <li>
               <Link to="/">
                 <img
@@ -48,7 +48,7 @@ export default function Profile() {
         </div>
         <div className="profile w-full aspect-square max-w-xl mix-blend-screen brightness-60 hover:brightness-80 transition-all duration-1000 scale-150"></div>
       </div>
-      <div className="flex flex-col 9shadow-black/30 gap-4 bg-linear-to-b mx-auto w-fit from-foreground1 to-foreground2 p-8 rounded-2xl border-t-3 border-white/5">
+      <div className="flex flex-col 9shadow-black/30 gap-4 bg-linear-to-b mx-auto w-fit from-foreground1 to-foreground2 p-8 rounded-2xl border-t-3 border-white/5 appear">
       <p className="max-w-2xl mx-auto text-center">
         I'm André - Currently a student of Multimedia Design, and a long-time
         enthusiast in all things digital. I like to tinker with a variety of

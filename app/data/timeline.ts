@@ -30,7 +30,8 @@ export const timeline = [
     },
     {
         id: 4,
-        place: "HTX Student Exam",
+        title: "HTX Student Exam",
+        place: "HTX Viby",
         year: 2014,
         desc: "Graduated from HTX Viby, with a focus on Design, Communication and IT."
     },
@@ -39,5 +40,8 @@ export const timeline = [
         title: "My first website",
         year: 2006,
         desc: "I created my first website in 2004, before I was even a teenager. I was taught some basics of HTML by my family as a starting point."
+    },
+    {
+        id: 6,
     }
 ]

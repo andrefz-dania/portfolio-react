@@ -5,7 +5,7 @@ import { webProjects } from "~/data/projects";
 export default function Portfolio() {
     const data = webProjects; 
     return (
-        <section className="mt-36 mx-4">
+        <section className="mt-36 appear">
             <H2>Web Development Projects</H2>
         <div className="flex flex-row gap-8 mt-8 p-2 overflow-x-auto  max-w-screen no-scrollbar snap-x">
             {webProjects.map((item) => {
