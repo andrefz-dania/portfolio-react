@@ -33,13 +33,13 @@ export default function ContactDetails() {
               </Link>
             </li>
             <li>
-              <Link to="mailto:andre.f.z@protonmai.com" className="flex flex-row items-center gap-2">
+              <Link to="mailto:andre.f.z@protonmail.com" className="flex flex-row items-center gap-2">
                 <img
                   className="h-8"
                   src="/icons/mail-round-bw.svg"
                   alt="Email"
                 />
-                <p className="text-lg font-bold">E-mail: andre.f.z@protonmai.com</p>
+                <p className="text-lg font-bold">E-mail: andre.f.z@protonmail.com</p>
               </Link>
             </li>
             <li>

@@ -36,7 +36,7 @@ export default function Profile() {
               </Link>
             </li>
             <li>
-              <Link to="mailto:andre.f.z@protonmai.com">
+              <Link to="mailto:andre.f.z@protonmail.com">
                 <img
                   className="h-12 opacity-40 hover:opacity-90 transition-all hover:scale-110"
                   src="/icons/mail-round-bw.svg"
